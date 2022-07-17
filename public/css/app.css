@@ -1,0 +1,95 @@
+.container{
+    overflow: hidden;
+}
+
+.counter{
+    max-width: fit-content;
+    margin: auto 0;
+    padding: 0;
+}
+
+.formselect,.form-select{
+    max-width: 150px;
+    
+}
+
+.btns{
+    max-width: fit-content;
+}
+
+.formselect{
+    padding: 0;
+}
+
+.search{
+    max-width: max-content;
+    padding: 0;
+}
+
+.search>*{
+    margin: 0 2px ;
+}
+
+.vertical{
+    vertical-align: baseline;
+}
+
+.min-size{
+   /* min-height: 50vh;*/
+}
+
+.text-right{
+    text-align: right;
+}
+
+.btn-container{
+    height: 50px;
+    position: relative;
+}
+.export-btn{
+    width: fit-content;
+    position: absolute;
+    right: 12px;
+}
+
+.deleted *{
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.ul-d-flex{
+    display: flex!important;
+    flex-wrap: wrap;
+}
+/**new**/
+
+.new-form>*, .new-form>.form-group>*{
+    margin: 5px 0;
+}
+
+/******/
+@media screen and (max-width:768px) {
+
+    .formselect,.form-select{
+        max-width: 100%;
+        
+    }
+
+    .search{
+        flex-direction: column;
+        max-width: unset;
+    }
+
+    .search>*{
+        margin: 2px 0;
+    }
+
+    .container{
+        margin: 0;
+        max-width: 100vw;
+    }
+    
+}
